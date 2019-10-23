@@ -21,16 +21,16 @@ Each group should work independently on their project to allow independent progr
   - [Team 8 - AI Server](#team-8---ai-server)
  
 ## Team Overview
-| Group | Mission                   | # Members | Supervisors       |
-|:-----:|---------------------------|:---------:|-------------------|
-|   1   | Operator Room             |     3     | Phil, Basti, Sven |
-|   2   | Environment & AI          |     3     | Ben, Basti        |
-|   3   | Mission Briefing          |     2     | Ben               |
-|   4   | Both Doors & First Puzzle |     2     | Ben, Marc, Chris  |
-|   5   | Safe & Puzzles            |     2     | Sven, Marc        |
-|   6   | Prototype & Puzzles       |     2     | Chris, Basti      |
-|   7   | Second Door Puzzles       |     2     | Phil, Marc        |
-|   8   | AI Server & Puzzles       |     2     | Sven, Chris       |
+| Group | Mission                        | # Members | Supervisors       | Main Repo |
+|:-----:|--------------------------------|:---------:|-------------------|-----------|
+|   1   | Operator Room                  |     3     | Phil, Basti, Sven | [operator](https://github.com/ubilab-escape/operator) |
+|   2   | Environment & AI               |     3     | Ben, Basti        | [environment](https://github.com/ubilab-escape/environment) |
+|   3   | Mission Briefing               |     2     | Ben               | [mission-briefing](https://github.com/ubilab-escape/mission-briefing) |
+|   4   | Both Doors & First Door Puzzle |     2     | Ben, Marc, Chris  | [first-door](https://github.com/ubilab-escape/first-door) |
+|   5   | Safe & Puzzles                 |     2     | Sven, Marc        | [safe](https://github.com/ubilab-escape/safe) |
+|   6   | Prototype & Puzzles            |     2     | Chris, Basti      | [prototype](https://github.com/ubilab-escape/prototype) |
+|   7   | Second Door Puzzles            |     2     | Phil, Marc        | [second-door](https://github.com/ubilab-escape/second-door) |
+|   8   | AI Server & Puzzles            |     2     | Sven, Chris       | [ai-server](https://github.com/ubilab-escape/ai-server) |
 
 ## Team 1 - Operator
 With great power comes great responsibility. No pressure.
