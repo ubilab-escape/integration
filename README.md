@@ -21,28 +21,28 @@ Each group should work independently on their project to allow independent progr
   - [Team 8 - AI Server](#team-8---ai-server)
 
 ## Story (to be changed)
-You are a team of special agents charged with stealing a highly classified prototype from a secret laboratory (lab 051) at the University of Freiburg. We know that the lab is secured with a state-of-the-art smart security system called STASIS (STate-of-the-art AsSIStant). Stasis is an AI controlling the room infrastructure and interacts with the inhabitants. You will need to outwit Stasis to access the construction plans of the prototype, which threatens to destroy the world.
+You are a team of special agents charged with stealing a highly classified prototype from a secret laboratory (lab 051) at the University of Freiburg. We know that the lab is secured with a state-of-the-art smart security system called STASIS (STate-of-the-art AsSIStant). Stasis is an AI controlling the room infrastructure and interacts with the inhabitants. You will need to outwit Stasis to access the prototype construction plans, which threatens to destroy the world.
 
-_Level 1_ In front of the lab entrance the team receives a communication device. The device tells the team about it's upcoming mission about stealing and transmitting the construction plans from within the lab. The device will self-destruct after delivering the message. You will have one hour to steal the prototype and escape the lab unharmed.
+_Level 1_ In front of the lab entrance the team receives a communication device. The device tells the team about it's upcoming mission about stealing and transmitting the prototype construction plans from within the lab. The device will self-destruct after delivering the message. You will have one hour to steal the prototype and escape the lab unharmed.
 
 _Level 2_ *Antechamber, lobby-like with table and absent security officer*. The team has to pass through the first door to enter the lab. It is unclear what kind of security mechanisms the team is up against.
 
 _Level 3_ *Inside the Lab, Tables with computers and lab material...*. Unbelievable, the prototype is in clear sight, however it is locked inside a transparent compartment. The team has to figure out how to open the compartment (maybe there are hints in logfiles, in notebook lying araound, or Stasis can be asked). There are multiple puzzles to solve. One thing is for sure, the entrance needs to be closed and the team must be in the room before the compartment can be opened.
 
-_Level 4_ *Inside the Lab, the prototype opens*. As soon as the team touches the prototype, an alarm sounds and Stasis announces a lock-down of the room and asks the team to return the prototype. Stasis will also interfere with the team's ability to move, by turning off the lighting etc. The team needs to switch the prototype with a similar object to fool Stasis. Once done, the team needs to locate the central server (in the next room) and enter.
+_Level 4_ *Inside the Lab, the prototype opens*. As soon as the team touches the prototype, an alarm sounds and Stasis announces a lock-down of the room and asks the team to return the prototype. Once returned the alarms turns off but the door stays closed. Stasis will also interfere with the team's ability to move, by turning off the lighting etc. The team needs to switch the prototype with a similar object to fool Stasis. Once done, the team needs to locate the central server (in the next room) and enter.
 
 _Level 5_ *Inside the Lab, open the server room*. The team has to decouple the control of the door from Stasis (manual override), for example by finding the hidden wiring the wall. Afterwards the lock of the door has to be broken (z.B. biometric hacking, e.g. finding a staff badge, RFID or similar).
 
-_Level 6_ *Serverroom, technical, some PC to transmit the prototype, home of Statis*, The team has to transmit a copy of the construction plans / prototype (e.g. stored on a floppy disk) to the client. Another puzzle has to be solved.
+_Level 6_ *Serverroom, technical, some PC to transmit the prototype, home of Statis*, The team has to transmit a copy of the prototype construction plans (e.g. stored on a floppy disk) to the client. Another puzzle has to be solved.
 
-_Level 7_ *Serverroom, escape*. Statis has gone rogue and will not let you leave. You somehow have to outwit or shut down Stasis to let you leave and open the lab room for you to escape before special forces will lock you up forever.
+_Level 7_ *Serverroom, escape*. Statis has gone rogue and will not let you leave. You somehow have to outwit or shut down Stasis to let you leave and open the lab room for you to escape before Arnold Schwarzenegger will be baaaaaack.
  
 ## Team Overview
 | Group   | Mission                          | Members     |  Supervisors         | Main Repo                                                             |
 | :-----: | -------------------------------- | ----------- |  ------------------- | -----------                                                           |
 | 1       | Operator Room                    |             |  Phil, Basti, Sven   | [operator](https://github.com/ubilab-escape/operator)                 |
 | 2       | Environment & AI                 |             |  Ben, Basti          | [environment](https://github.com/ubilab-escape/environment)           |
-| 3       | Mission Briefing                 |             |  Ben                 | [mission-briefing](https://github.com/ubilab-escape/mission-briefing) |
+| 3       | Mission Briefing                 |             |  Ben, Phil           | [mission-briefing](https://github.com/ubilab-escape/mission-briefing) |
 | 4       | Both Doors & First Door Puzzle   |             |  Ben, Marc, Chris    | [first-door](https://github.com/ubilab-escape/first-door)             |
 | 5       | Safe & Puzzles                   |             |  Sven, Marc          | [safe](https://github.com/ubilab-escape/safe)                         |
 | 6       | Prototype & Puzzles              |             |  Chris, Basti        | [prototype](https://github.com/ubilab-escape/prototype)               |
