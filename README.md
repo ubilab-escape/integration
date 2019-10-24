@@ -24,20 +24,21 @@ Each group should work independently on their project to allow independent progr
   - [Team 7 - Second Door](#team-7---second-door)
   - [Team 8 - AI Server](#team-8---ai-server)
 - [Storyline](#storyline)
+- [How to use this repository](#how-to-use-this-repository)
 
 # Teams
 
 ## Team Overview
-| Group | Mission                        | # Members | Supervisors       | Main Repo |
-|:-----:|--------------------------------|:---------:|-------------------|-----------|
-|   1   | Operator Room                  |     3     | Phil, Basti, Sven | [operator](https://github.com/ubilab-escape/operator) |
-|   2   | Environment & AI               |     3     | Ben, Basti        | [environment](https://github.com/ubilab-escape/environment) |
-|   3   | Mission Briefing               |     2     | Ben               | [mission-briefing](https://github.com/ubilab-escape/mission-briefing) |
-|   4   | Both Doors & First Door Puzzle |     2     | Ben, Marc, Chris  | [first-door](https://github.com/ubilab-escape/first-door) |
-|   5   | Safe & Puzzles                 |     2     | Sven, Marc        | [safe](https://github.com/ubilab-escape/safe) |
-|   6   | Prototype & Puzzles            |     2     | Chris, Basti      | [prototype](https://github.com/ubilab-escape/prototype) |
-|   7   | Second Door Puzzles            |     2     | Phil, Marc        | [second-door](https://github.com/ubilab-escape/second-door) |
-|   8   | AI Server & Puzzles            |     2     | Sven, Chris       | [ai-server](https://github.com/ubilab-escape/ai-server) |
+| Group | Mission                        | # Members   | Supervisors       | Main Repo |
+|:-----:|--------------------------------|:-----------:|-------------------|-----------|
+|   1   | Operator Room                  |     3       | Phil, Basti, Sven | [operator](https://github.com/ubilab-escape/operator) |
+|   2   | Environment & AI               |     3       | Ben, Basti        | [environment](https://github.com/ubilab-escape/environment) |
+|   3   | Mission Briefing               |     2-3     | Ben               | [mission-briefing](https://github.com/ubilab-escape/mission-briefing) |
+|   4   | Both Doors & First Door Puzzle |     2-3     | Ben, Marc, Chris  | [first-door](https://github.com/ubilab-escape/first-door) |
+|   5   | Safe & Puzzles                 |     2-3     | Sven, Marc        | [safe](https://github.com/ubilab-escape/safe) |
+|   6   | Prototype & Puzzles            |     2-3     | Chris, Basti      | [prototype](https://github.com/ubilab-escape/prototype) |
+|   7   | Second Door Puzzles            |     2-3     | Phil, Marc        | [second-door](https://github.com/ubilab-escape/second-door) |
+|   8   | AI Server & Puzzles            |     2-3     | Sven, Chris       | [ai-server](https://github.com/ubilab-escape/ai-server) |
 
 ## Team 1 - Operator
 With great power comes great responsibility. No pressure.
@@ -130,3 +131,6 @@ After the AI is destroyed all doors needs to open and the timer should stop so y
 
 # Storyline
 https://github.com/orgs/ubilab-escape/projects/2
+
+# How to use this repository
+TODO
