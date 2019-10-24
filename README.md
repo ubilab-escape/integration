@@ -13,6 +13,7 @@ Each group should work independently on their project to allow independent progr
 4. Do not use a sledgehammer to crack a nut - do you really need the processing power of a full blown Raspberry Pi or is a tiny microcontroller sufficient?
 
 - [UbiLab - Escape Room](#ubilab---escape-room)
+- [Teams](#teams)
   - [Team Overview](#team-overview)
   - [Team 1 - Operator](#team-1---operator)
   - [Team 2 - Environment](#team-2---environment)
@@ -22,7 +23,10 @@ Each group should work independently on their project to allow independent progr
   - [Team 6 - Prototype](#team-6---prototype)
   - [Team 7 - Second Door](#team-7---second-door)
   - [Team 8 - AI Server](#team-8---ai-server)
- 
+- [Storyline](#storyline)
+
+# Teams
+
 ## Team Overview
 | Group | Mission                        | # Members | Supervisors       | Main Repo |
 |:-----:|--------------------------------|:---------:|-------------------|-----------|
@@ -123,3 +127,6 @@ Your task is to build room three: the server room. This is the “brain” of th
 These just need to look like servers but not really work. However the interface for reading and uploading the prototype have to work. So you should communicate with group 6. They might use a 3.5 floppy disc or something else. The participants need to verify the prototype and upload it somehow.
 After that they need access to the “servers” of the AI. Now they have to solve some puzzles that you need to implement to gain access to them. Also there should be an option to shutdown or start the self destruction of the AI, maybe the participants need the admin password (42) to initiate the shutdown/self destruction. So you need to communicate with group 2 who is responsible for the AI.
 After the AI is destroyed all doors needs to open and the timer should stop so you have to arrange this with the other groups.
+
+# Storyline
+https://github.com/orgs/ubilab-escape/projects/2
