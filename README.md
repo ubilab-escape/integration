@@ -1,4 +1,7 @@
 # UbiLab - Escape Room
+
+![ubilab-escape-banner](/doc/img/ubilab-escape-banner1.png)
+
 > You are a team of special agents. Your mission, should you choose to accept it, is to steal the latest research results of lab area 051. You find yourself in the lab, the artificial intelligence controlling the room has gone rogue, and locked you in. You have one hour to convince the AI to open the doors and let you escape with the research results, before you will be captured by special forces.
 
 **Welcome to the Ubiquitous Lab course WS 19/20**
@@ -10,6 +13,7 @@ Each group should work independently on their project to allow independent progr
 4. Do not use a sledgehammer to crack a nut - do you really need the processing power of a full blown Raspberry Pi or is a tiny microcontroller sufficient?
 
 - [UbiLab - Escape Room](#ubilab---escape-room)
+- [Teams](#teams)
   - [Team Overview](#team-overview)
   - [Team 1 - Operator](#team-1---operator)
   - [Team 2 - Environment](#team-2---environment)
@@ -37,6 +41,11 @@ _Level 6_ *Serverroom, technical, some PC to transmit the prototype, home of Sta
 
 _Level 7_ *Serverroom, escape*. Statis has gone rogue and will not let you leave. You somehow have to outwit or shut down Stasis to let you leave and open the lab room for you to escape before Arnold Schwarzenegger will be baaaaaack.
  
+- [Storyline](#storyline)
+- [How to use this repository](#how-to-use-this-repository)
+ 
+# Teams
+ 
 ## Team Overview
 | Group   | Mission                          | Members     |  Supervisors         | Main Repo                                                             |
 | :-----: | -------------------------------- | ----------- |  ------------------- | -----------                                                           |
@@ -48,6 +57,7 @@ _Level 7_ *Serverroom, escape*. Statis has gone rogue and will not let you leave
 | 6       | Prototype & Puzzles              |             |  Chris, Basti        | [prototype](https://github.com/ubilab-escape/prototype)               |
 | 7       | Second Door Puzzles              |             |  Phil, Marc          | [second-door](https://github.com/ubilab-escape/second-door)           |
 | 8       | AI Server & Puzzles              |             |  Sven, Chris         | [ai-server](https://github.com/ubilab-escape/ai-server)               |
+=======
 
 ## Team 1 - Operator
 With great power comes great responsibility. No pressure.
@@ -137,3 +147,9 @@ Your task is to build room three: the server room. This is the “brain” of th
 These just need to look like servers but not really work. However the interface for reading and uploading the prototype have to work. So you should communicate with group 6. They might use a 3.5 floppy disc or something else. The participants need to verify the prototype and upload it somehow.
 After that they need access to the “servers” of the AI. Now they have to solve some puzzles that you need to implement to gain access to them. Also there should be an option to shutdown or start the self destruction of the AI, maybe the participants need the admin password (42) to initiate the shutdown/self destruction. So you need to communicate with group 2 who is responsible for the AI.
 After the AI is destroyed all doors needs to open and the timer should stop so you have to arrange this with the other groups.
+
+# Storyline
+https://github.com/orgs/ubilab-escape/projects/2
+
+# How to use this repository
+TODO

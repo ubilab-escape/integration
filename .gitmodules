@@ -1,0 +1,24 @@
+[submodule "operator"]
+	path = operator
+	url = git@github.com:ubilab-escape/operator.git
+[submodule "environment"]
+	path = environment
+	url = git@github.com:ubilab-escape/environment.git
+[submodule "mission-briefing"]
+	path = mission-briefing
+	url = git@github.com:ubilab-escape/mission-briefing.git
+[submodule "first-door"]
+	path = first-door
+	url = git@github.com:ubilab-escape/first-door.git
+[submodule "safe"]
+	path = safe
+	url = git@github.com:ubilab-escape/safe.git
+[submodule "prototype"]
+	path = prototype
+	url = git@github.com:ubilab-escape/prototype.git
+[submodule "second-door"]
+	path = second-door
+	url = git@github.com:ubilab-escape/second-door.git
+[submodule "ai-server"]
+	path = ai-server
+	url = git@github.com:ubilab-escape/ai-server.git
