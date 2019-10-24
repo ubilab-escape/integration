@@ -1,4 +1,7 @@
 # UbiLab - Escape Room
+
+![ubilab-escape-banner](/doc/img/ubilab-escape-banner1.png)
+
 > You are a team of special agents. Your mission, should you choose to accept it, is to steal the latest research results of lab area 051. You find yourself in the lab, the artificial intelligence controlling the room has gone rogue, and locked you in. You have one hour to convince the AI to open the doors and let you escape with the research results, before you will be captured by special forces.
 
 **Welcome to the Ubiquitous Lab course WS 19/20**
