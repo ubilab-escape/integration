@@ -13,6 +13,7 @@ Each group should work independently on their project to allow independent progr
 4. Do not use a sledgehammer to crack a nut - do you really need the processing power of a full blown Raspberry Pi or is a tiny microcontroller sufficient?
 
 - [UbiLab - Escape Room](#ubilab---escape-room)
+  - [Story (to be changed)](#story-to-be-changed)
 - [Teams](#teams)
   - [Team Overview](#team-overview)
   - [Team 1 - Operator](#team-1---operator)
@@ -23,27 +24,28 @@ Each group should work independently on their project to allow independent progr
   - [Team 6 - Prototype](#team-6---prototype)
   - [Team 7 - Second Door](#team-7---second-door)
   - [Team 8 - AI Server](#team-8---ai-server)
+- [How to use this repository](#how-to-use-this-repository)
 
 ## Story (to be changed)
 You are a team of special agents charged with stealing a highly classified prototype from a secret laboratory (lab 051) at the University of Freiburg. We know that the lab is secured with a state-of-the-art smart security system called STASIS (STate-of-the-art AsSIStant). Stasis is an AI controlling the room infrastructure and interacts with the inhabitants. You will need to outwit Stasis to access the prototype construction plans, which threatens to destroy the world.
 
-_Level 1_ In front of the lab entrance the team receives a communication device. The device tells the team about it's upcoming mission about stealing and transmitting the prototype construction plans from within the lab. The device will self-destruct after delivering the message. You will have one hour to steal the prototype and escape the lab unharmed.
+**Level 1** *In front of the lab entrance* the team receives a communication device. The device tells the team about it's upcoming mission about stealing and transmitting the prototype construction plans from within the lab. The device will self-destruct after delivering the message. You will have one hour to steal the prototype and escape the lab unharmed.
 
-_Level 2_ *Antechamber, lobby-like with table and absent security officer*. The team has to pass through the first door to enter the lab. It is unclear what kind of security mechanisms the team is up against.
+**Level 2** *Antechamber, lobby-like with table and absent security officer*. The team has to pass through the first door to enter the lab. It is unclear what kind of security mechanisms the team is up against.
 
-_Level 3_ *Inside the Lab, Tables with computers and lab material...*. Unbelievable, the prototype is in clear sight, however it is locked inside a transparent compartment. The team has to figure out how to open the compartment (maybe there are hints in logfiles, in notebook lying around, or Stasis can be asked). There are multiple puzzles to solve. One thing is for sure, the entrance needs to be closed and the team must be in the room before the compartment can be opened.
+**Level 3** *Inside the Lab, Tables with computers and lab material...*. Unbelievable, the prototype is in clear sight, however it is locked inside a transparent compartment. The team has to figure out how to open the compartment (maybe there are hints in logfiles, in notebook lying around, or Stasis can be asked). There are multiple puzzles to solve. One thing is for sure, the entrance needs to be closed and the team must be in the room before the compartment can be opened.
 
-_Level 4_ *Inside the Lab, the prototype opens*. As soon as the team touches the prototype, an alarm sounds and Stasis announces a lock-down of the room and asks the team to return the prototype. Once returned the alarms turns off but the door stays closed. Stasis will also interfere with the team's ability to move, by turning off the lighting etc. The team needs to switch the prototype with a similar object to fool Stasis. Once done, the team needs to locate the central server (in the next room) and enter.
+**Level 4** *Inside the Lab, the prototype opens*. As soon as the team touches the prototype, an alarm sounds and Stasis announces a lock-down of the room and asks the team to return the prototype. Once returned the alarms turns off but the door stays closed. Stasis will also interfere with the team's ability to move, by turning off the lighting etc. The team needs to switch the prototype with a similar object to fool Stasis. Once done, the team needs to locate the central server (in the next room) and enter.
 
-_Level 5_ *Inside the Lab, open the server room*. The team has to decouple the control of the door from Stasis (manual override), for example by finding the hidden wiring the wall. Afterwards the lock of the door has to be broken (z.B. biometric hacking, e.g. finding a staff badge, RFID or similar).
+**Level 5** *Inside the Lab, open the server room*. The team has to decouple the control of the door from Stasis (manual override), for example by finding the hidden wiring the wall. Afterwards the lock of the door has to be broken (z.B. biometric hacking, e.g. finding a staff badge, RFID or similar).
 
-_Level 6_ *Serverroom, technical, some PC to transmit the prototype, home of Statis*, The team has to transmit a copy of the prototype construction plans (e.g. stored on a floppy disk) to the client. Another puzzle has to be solved.
+**Level 6** *Serverroom, technical, some PC to transmit the prototype, home of Statis*, The team has to transmit a copy of the prototype construction plans (e.g. stored on a floppy disk) to the client. Another puzzle has to be solved.
 
-_Level 7_ *Serverroom, escape*. Statis has gone rogue and will not let you leave. You somehow have to outwit or shut down Stasis to let you leave and open the lab room for you to escape before Arnold Schwarzenegger will be baaaaaack.
- 
-- [Storyline](#storyline)
-- [How to use this repository](#how-to-use-this-repository)
- 
+**Level 7** *Serverroom, escape*. Statis has gone rogue and will not let you leave. You somehow have to outwit or shut down Stasis to let you leave and open the lab room for you to escape before Arnold Schwarzenegger will be baaaaaack.
+
+https://github.com/orgs/ubilab-escape/projects/2
+
+
 # Teams
  
 ## Team Overview
@@ -57,7 +59,7 @@ _Level 7_ *Serverroom, escape*. Statis has gone rogue and will not let you leave
 | 6       | Prototype & Puzzles              |             |  Chris, Basti        | [prototype](https://github.com/ubilab-escape/prototype)               |
 | 7       | Second Door Puzzles              |             |  Phil, Marc          | [second-door](https://github.com/ubilab-escape/second-door)           |
 | 8       | AI Server & Puzzles              |             |  Sven, Chris         | [ai-server](https://github.com/ubilab-escape/ai-server)               |
-=======
+
 
 ## Team 1 - Operator
 With great power comes great responsibility. No pressure.
@@ -148,8 +150,6 @@ These just need to look like servers but not really work. However the interface 
 After that they need access to the “servers” of the AI. Now they have to solve some puzzles that you need to implement to gain access to them. Also there should be an option to shutdown or start the self destruction of the AI, maybe the participants need the admin password (42) to initiate the shutdown/self destruction. So you need to communicate with group 2 who is responsible for the AI.
 After the AI is destroyed all doors needs to open and the timer should stop so you have to arrange this with the other groups.
 
-# Storyline
-https://github.com/orgs/ubilab-escape/projects/2
 
 # How to use this repository
 TODO
