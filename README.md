@@ -27,7 +27,7 @@ _Level 1_ In front of the lab entrance the team receives a communication device.
 
 _Level 2_ *Antechamber, lobby-like with table and absent security officer*. The team has to pass through the first door to enter the lab. It is unclear what kind of security mechanisms the team is up against.
 
-_Level 3_ *Inside the Lab, Tables with computers and lab material...*. Unbelievable, the prototype is in clear sight, however it is locked inside a transparent compartment. The team has to figure out how to open the compartment (maybe there are hints in logfiles, in notebook lying araound, or Stasis can be asked). There are multiple puzzles to solve. One thing is for sure, the entrance needs to be closed and the team must be in the room before the compartment can be opened.
+_Level 3_ *Inside the Lab, Tables with computers and lab material...*. Unbelievable, the prototype is in clear sight, however it is locked inside a transparent compartment. The team has to figure out how to open the compartment (maybe there are hints in logfiles, in notebook lying around, or Stasis can be asked). There are multiple puzzles to solve. One thing is for sure, the entrance needs to be closed and the team must be in the room before the compartment can be opened.
 
 _Level 4_ *Inside the Lab, the prototype opens*. As soon as the team touches the prototype, an alarm sounds and Stasis announces a lock-down of the room and asks the team to return the prototype. Once returned the alarms turns off but the door stays closed. Stasis will also interfere with the team's ability to move, by turning off the lighting etc. The team needs to switch the prototype with a similar object to fool Stasis. Once done, the team needs to locate the central server (in the next room) and enter.
 
