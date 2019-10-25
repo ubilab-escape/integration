@@ -1,6 +1,6 @@
 # UbiLab - Escape Room
 
-![ubilab-escape-banner](/doc/img/ubilab-escape-banner1.png)
+![ubilab-escape-banner](/doc/img/ue-banner4.png)
 
 > You are a team of special agents. Your mission, should you choose to accept it, is to steal the latest research results of lab area 051. You find yourself in the lab, the artificial intelligence controlling the room has gone rogue, and locked you in. You have one hour to convince the AI to open the doors and let you escape with the research results, before you will be captured by special forces.
 
@@ -27,21 +27,21 @@ Each group should work independently on their project to allow independent progr
 - [How to use this repository](#how-to-use-this-repository)
 
 ## Story (to be changed)
-You are a team of special agents charged with stealing a highly classified prototype from a secret laboratory (lab 051) at the University of Freiburg. We know that the lab is secured with a state-of-the-art smart security system called STASIS (STate-of-the-art AsSIStant). Stasis is an AI controlling the room infrastructure and interacts with the inhabitants. You will need to outwit Stasis to access the prototype construction plans, which threatens to destroy the world.
+You are a team of special agents charged with stealing a highly classified prototype from a secret laboratory (lab 051) at the University of Freiburg. We know that the lab is secured with a state-of-the-art smart security system called STASIS (STate-of-the-art AsSIStant). STASIS is an AI controlling the room infrastructure and interacts with the inhabitants. You will need to outwit STASIS to access the prototype construction plans, which threatens to destroy the world.
 
 **Level 1** *In front of the lab entrance* the team receives a communication device. The device tells the team about it's upcoming mission about stealing and transmitting the prototype construction plans from within the lab. The device will self-destruct after delivering the message. You will have one hour to steal the prototype and escape the lab unharmed.
 
 **Level 2** *Antechamber, lobby-like with table and absent security officer*. The team has to pass through the first door to enter the lab. It is unclear what kind of security mechanisms the team is up against.
 
-**Level 3** *Inside the Lab, Tables with computers and lab material...*. Unbelievable, the prototype is in clear sight, however it is locked inside a transparent compartment. The team has to figure out how to open the compartment (maybe there are hints in logfiles, in notebook lying around, or Stasis can be asked). There are multiple puzzles to solve. One thing is for sure, the entrance needs to be closed and the team must be in the room before the compartment can be opened.
+**Level 3** *Inside the Lab, Tables with computers and lab material...*. Unbelievable, the prototype is in clear sight, however it is locked inside a transparent compartment. The team has to figure out how to open the compartment (maybe there are hints in logfiles, in notebook lying around, or STASIS can be asked). There are multiple puzzles to solve. One thing is for sure, the entrance needs to be closed and the team must be in the room before the compartment can be opened.
 
-**Level 4** *Inside the Lab, the prototype opens*. As soon as the team touches the prototype, an alarm sounds and Stasis announces a lock-down of the room and asks the team to return the prototype. Once returned the alarms turns off but the door stays closed. Stasis will also interfere with the team's ability to move, by turning off the lighting etc. The team needs to switch the prototype with a similar object to fool Stasis. Once done, the team needs to locate the central server (in the next room) and enter.
+**Level 4** *Inside the Lab, the prototype opens*. As soon as the team touches the prototype, an alarm sounds and STASIS announces a lock-down of the room and asks the team to return the prototype. Once returned the alarms turns off but the door stays closed. STASIS will also interfere with the team's ability to move, by turning off the lighting etc. The team needs to switch the prototype with a similar object to fool STASIS. Once done, the team needs to locate the central server (in the next room) and enter.
 
-**Level 5** *Inside the Lab, open the server room*. The team has to decouple the control of the door from Stasis (manual override), for example by finding the hidden wiring the wall. Afterwards the lock of the door has to be broken (z.B. biometric hacking, e.g. finding a staff badge, RFID or similar).
+**Level 5** *Inside the Lab, open the server room*. The team has to decouple the control of the door from STASIS (manual override), for example by finding the hidden wiring the wall. Afterwards the lock of the door has to be broken (z.B. biometric hacking, e.g. finding a staff badge, RFID or similar).
 
-**Level 6** *Serverroom, technical, some PC to transmit the prototype, home of Statis*, The team has to transmit a copy of the prototype construction plans (e.g. stored on a floppy disk) to the client. Another puzzle has to be solved.
+**Level 6** *Serverroom, technical, some PC to transmit the prototype, home of STASIS*, The team has to transmit a copy of the prototype construction plans (e.g. stored on a floppy disk) to the client. Another puzzle has to be solved.
 
-**Level 7** *Serverroom, escape*. Statis has gone rogue and will not let you leave. You somehow have to outwit or shut down Stasis to let you leave and open the lab room for you to escape before Arnold Schwarzenegger will be baaaaaack.
+**Level 7** *Serverroom, escape*. STASIS has gone rogue and will not let you leave. You somehow have to outwit or shut down STASIS to let you leave and open the lab room for you to escape before Arnold Schwarzenegger will be baaaaaack.
 
 https://github.com/orgs/ubilab-escape/projects/2
 
@@ -83,6 +83,8 @@ Some pointers to possible systems/tools/software that you may use:
 - ...
 
 There are some commercially available escape room management systems that can be found online. You are encouraged to look into these for inspiration.
+
+As a secondary task, you should integrate some cameras into the rooms and somehow display the video in your management system. We already provide some ESP based mini cameras with case (https://m5stack.com/products/esp-32-camera-psram).
 
 ## Team 2 - Environment
 The group “Environment + AI” has to work closely with the operator group and your project is more or less three fold.
@@ -152,4 +154,7 @@ After the AI is destroyed all doors needs to open and the timer should stop so y
 
 
 # How to use this repository
+
+https://github.github.com/training-kit/downloads/submodule-vs-subtree-cheat-sheet/
+
 TODO
