@@ -14,6 +14,7 @@ Each group should work independently on their project to allow independent progr
 
 - [UbiLab - Escape Room](#ubilab---escape-room)
   - [Story (to be changed)](#story-to-be-changed)
+- [Room](#room)
 - [Teams](#teams)
   - [Team Overview](#team-overview)
   - [Team 1 - Operator](#team-1---operator)
@@ -24,6 +25,7 @@ Each group should work independently on their project to allow independent progr
   - [Team 6 - Prototype](#team-6---prototype)
   - [Team 7 - Second Door](#team-7---second-door)
   - [Team 8 - AI Server](#team-8---ai-server)
+  - [Team 9 - Indoor Location Tracking](#team-9---indoor-location-tracking)
 - [How to use this repository](#how-to-use-this-repository)
 
 ## Story (to be changed)
@@ -46,19 +48,27 @@ You are a team of special agents charged with stealing a highly classified proto
 https://github.com/orgs/ubilab-escape/projects/2
 
 
+# Room
+TBD
+
+![escape-room-plan-prelim1](/doc/img/escape-room-plan-prelim1.png)  
+Figure: Preliminary escape room plan (symbolic, not to scale)
+
+
 # Teams
  
 ## Team Overview
 | Group   | Mission                          | Members     |  Supervisors         | Main Repo                                                             |
 | :-----: | -------------------------------- | ----------- |  ------------------- | -----------                                                           |
-| 1       | Operator Room                    |             |  Phil, Basti, Sven   | [operator](https://github.com/ubilab-escape/operator)                 |
-| 2       | Environment & AI                 |             |  Ben, Basti          | [environment](https://github.com/ubilab-escape/environment)           |
+| 1       | Operator Room                    | Jannik, Simon |  Phil, Basti, Sven   | [operator](https://github.com/ubilab-escape/operator)                 |
+| 2       | Environment & AI                 | Andres, Jean-Baptiste, Saurav |  Ben, Basti          | [environment](https://github.com/ubilab-escape/environment)           |
 | 3       | Mission Briefing                 |             |  Ben, Phil           | [mission-briefing](https://github.com/ubilab-escape/mission-briefing) |
-| 4       | Both Doors & First Door Puzzle   |             |  Ben, Marc, Chris    | [first-door](https://github.com/ubilab-escape/first-door)             |
-| 5       | Safe & Puzzles                   |             |  Sven, Marc          | [safe](https://github.com/ubilab-escape/safe)                         |
-| 6       | Prototype & Puzzles              |             |  Chris, Basti        | [prototype](https://github.com/ubilab-escape/prototype)               |
-| 7       | Second Door Puzzles              |             |  Phil, Marc          | [second-door](https://github.com/ubilab-escape/second-door)           |
-| 8       | AI Server & Puzzles              |             |  Sven, Chris         | [ai-server](https://github.com/ubilab-escape/ai-server)               |
+| 4       | Both Doors & First Door Puzzle   | David, Mario, Sarah |  Ben, Marc, Chris    | [first-door](https://github.com/ubilab-escape/first-door)             |
+| 5       | Safe & Puzzles                   | Florian B., Frank, Markus |  Sven, Marc          | [safe](https://github.com/ubilab-escape/safe)                         |
+| 6       | Prototype & Puzzles              | Florian D., Lukas, Niklas |  Chris, Basti        | [prototype](https://github.com/ubilab-escape/prototype)               |
+| 7       | Second Door Puzzles              | Johannes, Maximilian, Thomas |  Phil, Marc          | [second-door](https://github.com/ubilab-escape/second-door)           |
+| 8       | AI Server & Puzzles              | Claudio, Cristina, Konstantin |  Sven, Chris         | [ai-server](https://github.com/ubilab-escape/ai-server)               |
+| 9       | Indoor Location Tracking              | Kareem, Monideep | Phil, Basti  | [indoorloc](https://github.com/ubilab-escape/indoorloc)               |
 
 
 ## Team 1 - Operator
@@ -152,9 +162,17 @@ These just need to look like servers but not really work. However the interface 
 After that they need access to the “servers” of the AI. Now they have to solve some puzzles that you need to implement to gain access to them. Also there should be an option to shutdown or start the self destruction of the AI, maybe the participants need the admin password (42) to initiate the shutdown/self destruction. So you need to communicate with group 2 who is responsible for the AI.
 After the AI is destroyed all doors needs to open and the timer should stop so you have to arrange this with the other groups.
 
+## Team 9 - Indoor Location Tracking
+Your task is to develop an indoor location tracking solution, tracking the players as they move in the escape room. The goal is to know at any time in which part of the room each player is, and when they change into another part. This information can then for example be used to make sure all players are in the same room, to trigger a certain action.
+
+You will be supplied with several [decawave ultra-wideband radio](https://www.decawave.com/product/mdek1001-deployment-kit/) transmitters (tags) and receivers (achors). A standard setup will attach anchors to the walls of the rooms, and one tag to each player. A software can then be used to get location data of each tag relative to the anchors. Different areas could then be assigned to parts of the room, triggering a certain event when a tag enters or leaves an area.
+
+Additionally, you will need to think about an in-story reason why each player needs to wear a transmitter tag. Discuess with other groups (especially the safe and door groups) what possible applications of location tracking in the room could be.
+
 
 # How to use this repository
 
 https://github.github.com/training-kit/downloads/submodule-vs-subtree-cheat-sheet/
 
 TODO
+
