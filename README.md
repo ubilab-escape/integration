@@ -49,10 +49,13 @@ https://github.com/orgs/ubilab-escape/projects/2
 
 
 # Room
-TBD
+Location: 079-1019
 
-![escape-room-plan-prelim1](/doc/img/escape-room-plan-prelim1.png)  
-Figure: Preliminary escape room plan (symbolic, not to scale)
+![escape-room-plan-v1](/doc/img/escape-room-plan-v1.jpeg)  
+Figure: Escape room plan to scale, with measurements.
+
+![escape-room-plan-prelim](/doc/img/escape-room-plan-prelim.png)  
+Figure: Preliminary escape room plan (symbolic, not to scale).
 
 
 # Teams
