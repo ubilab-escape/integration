@@ -51,12 +51,16 @@ https://github.com/orgs/ubilab-escape/projects/2
 # Room
 Location: 079-1019
 
-![escape-room-plan-v1](/doc/img/escape-room-plan-v1.jpeg)  
-Figure: Escape room plan to scale, with measurements.
+![escape-room-plan-v1](/doc/img/escape-room-plan-v2.jpeg)  
+Figure: Escape room plan. Rough outline, measurements not accurate!
 
+<!--
 ![escape-room-plan-prelim](/doc/img/escape-room-plan-prelim.png)  
 Figure: Preliminary escape room plan (symbolic, not to scale).
+-->
 
+[![escape-room-video1](https://img.youtube.com/vi/kZ_hx5HPFF0/0.jpg)](https://www.youtube.com/watch?v=kZ_hx5HPFF0 "Escaperoom Raw Build")  
+Video: Finished building the raw framework.
 
 # Teams
  
@@ -65,13 +69,13 @@ Figure: Preliminary escape room plan (symbolic, not to scale).
 | :-----: | -------------------------------- | ----------- |  ------------------- | -----------                                                           |
 | 1       | Operator Room                    | Jannik, Simon |  Phil, Basti, Sven   | [operator](https://github.com/ubilab-escape/operator)                 |
 | 2       | Environment & AI                 | Andres, Jean-Baptiste, Saurav |  Ben, Basti          | [environment](https://github.com/ubilab-escape/environment)           |
-| 3       | Mission Briefing                 |             |  Ben, Phil           | [mission-briefing](https://github.com/ubilab-escape/mission-briefing) |
+| 3       | Mission Briefing                 | Kareem   |  Ben, Phil           | [mission-briefing](https://github.com/ubilab-escape/mission-briefing) |
 | 4       | Both Doors & First Door Puzzle   | David, Mario, Sarah |  Ben, Marc, Chris    | [first-door](https://github.com/ubilab-escape/first-door)             |
 | 5       | Safe & Puzzles                   | Florian B., Frank, Markus |  Sven, Marc          | [safe](https://github.com/ubilab-escape/safe)                         |
 | 6       | Prototype & Puzzles              | Florian D., Lukas, Niklas |  Chris, Basti        | [prototype](https://github.com/ubilab-escape/prototype)               |
 | 7       | Second Door Puzzles              | Johannes, Maximilian, Thomas |  Phil, Marc          | [second-door](https://github.com/ubilab-escape/second-door)           |
 | 8       | AI Server & Puzzles              | Claudio, Cristina, Konstantin |  Sven, Chris         | [ai-server](https://github.com/ubilab-escape/ai-server)               |
-| 9       | Indoor Location Tracking              | Kareem, Monideep | Phil, Basti  | [indoorloc](https://github.com/ubilab-escape/indoorloc)               |
+| 9       | Indoor Location Tracking              |  | Phil, Basti  | [indoorloc](https://github.com/ubilab-escape/indoorloc)               |
 
 
 ## Team 1 - Operator
