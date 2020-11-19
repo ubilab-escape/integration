@@ -28,7 +28,26 @@ Each group should work independently on their project to allow independent progr
   - [Team 9 - Indoor Location Tracking](#team-9---indoor-location-tracking)
 - [How to use this repository](#how-to-use-this-repository)
 
-## Story (to be changed)
+## Course Evaluation
+The course should be considered a success.
+All groups were able to achieve their initial plans and finished their prototypes in time before the last two weeks of the semester.
+Inter group integration - which was one major requirement - turned out to be the hardest part of the remaining work. 
+In the end, all prototypes were successfully integrated into one fully automatic escape room. 
+A trial run with over 50 faculty members as well as friends of the course participants proofed the robustness of the students work.
+Not one escape session needed to be called off. Occasionally, single puzzles did not work as expected, but these could easily be skipped by the operator interface. 
+You can take a look at the results of our course evaluation: [results]('doc/questionaire/Evaluation Results.csv')
+
+The room remains prepared for future escape room courses once face-to-face events are possible again.
+
+If you are interested in the course design, we encourage you to take a look at  [[1]](#1)
+
+### References
+<a id="1">[1]</a> 
+Pfeifer, M.; Völker, B.; Böttcher, S.; Köhler, S.; Scholl, P.M.; (2020).
+Teaching Embedded Systems by Constructing an Escape Room. 
+In the 52nd ACM Technical Symposium on Computer Science Education (SIGCSE ’21), March 13–20, 2021, ACM, Virtual Event, USA.
+
+## Story
 You are a team of special agents charged with stealing a highly classified prototype from a secret laboratory (lab 051) at the University of Freiburg. We know that the lab is secured with a state-of-the-art smart security system called STASIS (STate-of-the-art AsSIStant). STASIS is an AI controlling the room infrastructure and interacts with the inhabitants. You will need to outwit STASIS to access the prototype construction plans, which threatens to destroy the world.
 
 **Level 1** *In front of the lab entrance* the team receives a communication device. The device tells the team about it's upcoming mission about stealing and transmitting the prototype construction plans from within the lab. The device will self-destruct after delivering the message. You will have one hour to steal the prototype and escape the lab unharmed.
@@ -181,5 +200,4 @@ Additionally, you will need to think about an in-story reason why each player ne
 
 https://github.github.com/training-kit/downloads/submodule-vs-subtree-cheat-sheet/
 
-TODO
 
