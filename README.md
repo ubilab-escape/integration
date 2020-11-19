@@ -35,7 +35,7 @@ Inter group integration - which was one major requirement - turned out to be the
 In the end, all prototypes were successfully integrated into one fully automatic escape room. 
 A trial run with over 50 faculty members as well as friends of the course participants proofed the robustness of the students work.
 Not one escape session needed to be called off. Occasionally, single puzzles did not work as expected, but these could easily be skipped by the operator interface. 
-You can take a look at the results of our course evaluation: [results]('doc/questionaire/Evaluation Results.csv')
+You can take a look at the results of our course evaluation: [results](doc/questionaire/Evaluation_Results.csv)
 
 The room remains prepared for future escape room courses once face-to-face events are possible again.
 
