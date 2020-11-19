@@ -22,6 +22,3 @@
 [submodule "ai-server"]
 	path = ai-server
 	url = git@github.com:ubilab-escape/ai-server.git
-[submodule "indoorloc"]
-	path = indoorloc
-	url = git@github.com:ubilab-escape/indoorloc.git
